@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Azure.Identity" Version="1.4.0" />
+		<PackageReference Include="Microsoft.Rest.ClientRuntime" Version="2.3.23" />
+		<PackageReference Include="Microsoft.Azure.Management.KubernetesConfiguration" Version="2.0.0" />
+	</ItemGroup>
+
+</Project>
